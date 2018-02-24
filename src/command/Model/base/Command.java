@@ -6,4 +6,5 @@ package command.Model.base;
  */
 public interface Command {
     public void execute();
+    public void undo();
 }
